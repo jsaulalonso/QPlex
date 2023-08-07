@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugins>
   <item>
-    <name>Plex Media Server</name>
+    <name>PlexMediaServer</name>
     <category>Plex Media Server</category>
     <description>Plex Media Server</description>
     <fwVersion>4.0.0</fwVersion>
