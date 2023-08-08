@@ -14,4 +14,7 @@ jobs:
       - run: |
           pip install -r requirements.txt
           python update_repo.py
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - run: |
+          git add repo.xml
+          git commit -m "update repo"
+          git push
