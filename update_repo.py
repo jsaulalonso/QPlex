@@ -18,8 +18,6 @@ try:
         j2_template = Environment(loader=FileSystemLoader(".")).get_template("repo.xml.j2")
         with open('repo.xml', mode="w", encoding="utf-8") as repo_file:
             repo_file.write(j2_template.render(plex_version=plex_version, aarch64_url=aarch64_url, x86_64_url=x86_64_url))
+            repo_file.close()
 except:
     print('ERROR')
-#qnap_plex_info = requests.get(PLEX_VERSIONS_URL).json()
-
-#print(qnap_plex_info['nas']['QNAP'])
