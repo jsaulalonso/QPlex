@@ -11,6 +11,7 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-      - run: pip install -r requirements.txt
-      - run: python update_repo.py
+      - run: |
+          pip install -r requirements.txt
+          python update_repo.py
       - uses: stefanzweifel/git-auto-commit-action@v4
