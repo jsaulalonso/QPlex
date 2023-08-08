@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugins>
+  <item>
+    <name>Plex Media Server</name>
+    <category>Plex Media Server</category>
+    <description>Plex Media Server</description>
+    <fwVersion>4.0.0</fwVersion>
+    <version>1.32.5</version>
+    <internalName>PlexMediaServer</internalName>
+    <platform>
+      <platformID>TS-NASX86</platformID>
+      <location>https://downloads.plex.tv/plex-media-server-new/1.32.5.7349-8f4248874/qnap/PlexMediaServer-1.32.5.7349-8f4248874-x86_64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-NASARM_64</platformID>
+      <location>https://downloads.plex.tv/plex-media-server-new/1.32.5.7349-8f4248874/qnap/PlexMediaServer-1.32.5.7349-8f4248874-aarch64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X16</platformID>
+      <location>https://downloads.plex.tv/plex-media-server-new/1.32.5.7349-8f4248874/qnap/PlexMediaServer-1.32.5.7349-8f4248874-aarch64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X28A</platformID>
+      <location>https://downloads.plex.tv/plex-media-server-new/1.32.5.7349-8f4248874/qnap/PlexMediaServer-1.32.5.7349-8f4248874-aarch64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X32</platformID>
+      <location>https://downloads.plex.tv/plex-media-server-new/1.32.5.7349-8f4248874/qnap/PlexMediaServer-1.32.5.7349-8f4248874-aarch64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X32U</platformID>
+      <location>https://downloads.plex.tv/plex-media-server-new/1.32.5.7349-8f4248874/qnap/PlexMediaServer-1.32.5.7349-8f4248874-aarch64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X33</platformID>
+      <location>https://downloads.plex.tv/plex-media-server-new/1.32.5.7349-8f4248874/qnap/PlexMediaServer-1.32.5.7349-8f4248874-aarch64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X35</platformID>
+      <location>https://downloads.plex.tv/plex-media-server-new/1.32.5.7349-8f4248874/qnap/PlexMediaServer-1.32.5.7349-8f4248874-aarch64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X35A</platformID>
+      <location>https://downloads.plex.tv/plex-media-server-new/1.32.5.7349-8f4248874/qnap/PlexMediaServer-1.32.5.7349-8f4248874-aarch64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X35EU</platformID>
+      <location>https://downloads.plex.tv/plex-media-server-new/1.32.5.7349-8f4248874/qnap/PlexMediaServer-1.32.5.7349-8f4248874-aarch64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-XA28A</platformID>
+      <location>https://downloads.plex.tv/plex-media-server-new/1.32.5.7349-8f4248874/qnap/PlexMediaServer-1.32.5.7349-8f4248874-aarch64.qpkg</location>
+    </platform>
+    <icon80>https://raw.githubusercontent.com/jsaulalonso/QPlex/main/icons/QPlex.gif</icon80>
+    <icon100>https://raw.githubusercontent.com/jsaulalonso/QPlex/main/icons/QPlex_80.gif</icon100>
+  </item>
+</plugins>
