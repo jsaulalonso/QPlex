@@ -13,4 +13,4 @@ jobs:
           python-version: '3.11'
       - run: pip install -r requirements.txt
       - run: python update_repo.py
-      - run: cat repo.xml
+      - uses: stefanzweifel/git-auto-commit-action@v4
