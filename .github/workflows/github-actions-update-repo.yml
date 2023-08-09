@@ -14,9 +14,4 @@ jobs:
       - run: |
           pip install -r requirements.txt
           python update_repo.py
-      - run: |
-          git config user.name "jsaulalonso"
-          git config user.email "jsaulalonso@users.noreply.github.com"
-          git add repo.xml
-          git commit -m "update repo"
-          git push
+      - uses: stefanzweifel/git-auto-commit-action@v4
