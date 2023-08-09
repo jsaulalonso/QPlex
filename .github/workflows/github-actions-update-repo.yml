@@ -1,6 +1,8 @@
 name: GitHub Actions Update Repo
 run-name: Updating repo file 🚀
-on: [push]
+on:
+  schedule:
+    - cron: "46 2 * * *"
 jobs:
   Update-Repo:
     runs-on: ubuntu-latest
