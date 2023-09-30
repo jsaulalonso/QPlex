@@ -5,7 +5,7 @@
     <category>Plex Media Server</category>
     <description>Plex Media Server</description>
     <fwVersion>4.0.0</fwVersion>
-    <version>1.32.6</version>
+    <version>32.6.7557</version>
     <internalName>PlexMediaServer</internalName>
     <platform>
       <platformID>TS-NASX86</platformID>
